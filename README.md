@@ -8,7 +8,7 @@ _[WARN] This project is VERY experimental, do not (never) use it in production._
 
 The router works as a functional `switch` whose cases are replaced by predicates and results by mappers. That way, you can avoid nested ternary operators in lambdas, making the flow clearer and your teammates happier.
 
-Above, you'll find a routine that takes a list of `String` and maps it to a list of `Integer` whose each entry represents the sum of the digit characters of its mapped `String` entry. 
+Below, you'll find a routine that takes a list of `String` and maps it to a list of `Integer` whose each entry represents the sum of the digit characters of its mapped `String` entry. 
 ```java
 //import static fp.FunctionalRouter.route;
 //import static fp.FunctionalRouter.defaultRoute;
